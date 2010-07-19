@@ -2,10 +2,6 @@
 
 Adds a Rake task to remove all memberships for a specific user
 
-== Features
-
-TODO: fill in features
-
 == Getting the plugin
 
 A copy of the plugin can be downloaded from {Little Stream Software}[https://projects.littlestreamsoftware.com/projects/redmine-misc/files] or from {GitHub}[http://github.com/edavis10/redmine_remove_membership]
@@ -14,12 +10,10 @@ A copy of the plugin can be downloaded from {Little Stream Software}[https://pro
 == Installation and Setup
 
 1. Follow the Redmine plugin installation steps at: http://www.redmine.org/wiki/redmine/Plugins 
-2. Run the plugin migrations +rake db:migrate_plugins+
-3. Restart your Redmine web servers (e.g. mongrel, thin, mod_rails)
 
 == Usage
 
-TODO: Add usage
+In your Redmine root, use the "redmine_remove_membership:remove" Rake task (e.g. rake redmine_remove_membership:remove).  The documentation and options are available with the -D option (e.g. rake -D redmine_remove_membership:remove).
 
 == License
 
