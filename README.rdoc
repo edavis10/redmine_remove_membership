@@ -1,6 +1,6 @@
-= redmine_remove_membership
+= Redmine Remove Membership
 
-Adds a Rake task to remove all memberships for a specific user
+Adds a Rake task to remove all memberships for a specific user.
 
 == Getting the plugin
 
